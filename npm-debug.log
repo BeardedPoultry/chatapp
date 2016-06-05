@@ -1,0 +1,800 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update' ]
+2 info using npm@3.5.2
+3 info using node@v0.12.2
+4 verbose node symlink /usr/local/bin/node
+5 silly mapToRegistry name gulp-util
+6 silly mapToRegistry using default registry
+7 silly mapToRegistry registry https://registry.npmjs.org/
+8 silly mapToRegistry uri https://registry.npmjs.org/gulp-util
+9 silly mapToRegistry name gulp-wrap
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/gulp-wrap
+13 silly mapToRegistry name autoprefixer-core
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer-core
+17 silly mapToRegistry name browser-sync
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+21 silly mapToRegistry name gulp
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/gulp
+25 silly mapToRegistry name gulp-babel
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/gulp-babel
+29 silly mapToRegistry name gulp-concat
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+33 silly mapToRegistry name gulp-declare
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/gulp-declare
+37 silly mapToRegistry name gulp-handlebars
+38 silly mapToRegistry using default registry
+39 silly mapToRegistry registry https://registry.npmjs.org/
+40 silly mapToRegistry uri https://registry.npmjs.org/gulp-handlebars
+41 silly mapToRegistry name gulp-load-plugins
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/gulp-load-plugins
+45 silly mapToRegistry name gulp-plumber
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/gulp-plumber
+49 silly mapToRegistry name gulp-postcss
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry uri https://registry.npmjs.org/gulp-postcss
+53 silly mapToRegistry name gulp-sass
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry https://registry.npmjs.org/
+56 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+57 silly mapToRegistry name gulp-sourcemaps
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry uri https://registry.npmjs.org/gulp-sourcemaps
+61 verbose request uri https://registry.npmjs.org/gulp-util
+62 verbose request no auth needed
+63 info attempt registry request try #1 at 21:06:44
+64 verbose request id d71fe3867a3c30e3
+65 verbose etag "D5TOOQFT755D32UG9UDTQFHY2"
+66 http request GET https://registry.npmjs.org/gulp-util
+67 verbose request uri https://registry.npmjs.org/gulp-wrap
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 21:06:44
+70 verbose etag "CJZDA1RWCDNHRUQWY3YC7MWMB"
+71 http request GET https://registry.npmjs.org/gulp-wrap
+72 verbose request uri https://registry.npmjs.org/autoprefixer-core
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 21:06:44
+75 verbose etag "24OZ2JP8TVHQ0913YS664JJ0I"
+76 http request GET https://registry.npmjs.org/autoprefixer-core
+77 verbose request uri https://registry.npmjs.org/gulp
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 21:06:44
+80 verbose etag "ANOONJ427UCOW52CRUXTGQSGU"
+81 http request GET https://registry.npmjs.org/gulp
+82 verbose request uri https://registry.npmjs.org/gulp-babel
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 21:06:44
+85 verbose etag "51DWMG5BJZTDEATN3KDEX5KQT"
+86 http request GET https://registry.npmjs.org/gulp-babel
+87 verbose request uri https://registry.npmjs.org/gulp-declare
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 21:06:44
+90 verbose etag "EOQJW33VH42E7G6QCBGMNOSBW"
+91 http request GET https://registry.npmjs.org/gulp-declare
+92 verbose request uri https://registry.npmjs.org/gulp-concat
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 21:06:44
+95 verbose etag "6JDMSJDA2U7CKOJ03IHNK4K6F"
+96 http request GET https://registry.npmjs.org/gulp-concat
+97 verbose request uri https://registry.npmjs.org/gulp-handlebars
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 21:06:44
+100 verbose etag "6SYGMAJTHG7ADFQ41IZ3XIR16"
+101 http request GET https://registry.npmjs.org/gulp-handlebars
+102 verbose request uri https://registry.npmjs.org/browser-sync
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 21:06:44
+105 verbose etag "E4QOY7J66OJG0E87S597IJ59T"
+106 http request GET https://registry.npmjs.org/browser-sync
+107 verbose request uri https://registry.npmjs.org/gulp-load-plugins
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 21:06:44
+110 verbose etag "309I08U5MBC0TJ1RGQT46G6U"
+111 http request GET https://registry.npmjs.org/gulp-load-plugins
+112 verbose request uri https://registry.npmjs.org/gulp-plumber
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 21:06:44
+115 verbose etag "8ZKYFSN8QH72M8SO1G7PJ1UUX"
+116 http request GET https://registry.npmjs.org/gulp-plumber
+117 verbose request uri https://registry.npmjs.org/gulp-postcss
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 21:06:44
+120 verbose etag "CQFI0372XC6LO4LVLD2PEAXHA"
+121 http request GET https://registry.npmjs.org/gulp-postcss
+122 verbose request uri https://registry.npmjs.org/gulp-sass
+123 verbose request no auth needed
+124 info attempt registry request try #1 at 21:06:44
+125 verbose etag "DSD4IQO64QZODLHS0KI86T80F"
+126 http request GET https://registry.npmjs.org/gulp-sass
+127 verbose request uri https://registry.npmjs.org/gulp-sourcemaps
+128 verbose request no auth needed
+129 info attempt registry request try #1 at 21:06:44
+130 verbose etag "B52J61JOAY0NW51YE0EZGMDPK"
+131 http request GET https://registry.npmjs.org/gulp-sourcemaps
+132 http 304 https://registry.npmjs.org/gulp-wrap
+133 verbose headers { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+133 verbose headers   via: '1.1 varnish',
+133 verbose headers   'cache-control': 'max-age=300',
+133 verbose headers   etag: '"CJZDA1RWCDNHRUQWY3YC7MWMB"',
+133 verbose headers   age: '101',
+133 verbose headers   connection: 'keep-alive',
+133 verbose headers   'x-served-by': 'cache-atl6236-ATL',
+133 verbose headers   'x-cache': 'HIT',
+133 verbose headers   'x-cache-hits': '1',
+133 verbose headers   'x-timer': 'S1465088804.900879,VS0,VE0',
+133 verbose headers   vary: 'Accept-Encoding' }
+134 silly get cb [ 304,
+134 silly get   { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+134 silly get     via: '1.1 varnish',
+134 silly get     'cache-control': 'max-age=300',
+134 silly get     etag: '"CJZDA1RWCDNHRUQWY3YC7MWMB"',
+134 silly get     age: '101',
+134 silly get     connection: 'keep-alive',
+134 silly get     'x-served-by': 'cache-atl6236-ATL',
+134 silly get     'x-cache': 'HIT',
+134 silly get     'x-cache-hits': '1',
+134 silly get     'x-timer': 'S1465088804.900879,VS0,VE0',
+134 silly get     vary: 'Accept-Encoding' } ]
+135 verbose etag https://registry.npmjs.org/gulp-wrap from cache
+136 verbose get saving gulp-wrap to /Users/Gabriel/.npm/registry.npmjs.org/gulp-wrap/.cache.json
+137 http 304 https://registry.npmjs.org/gulp-babel
+138 verbose headers { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+138 verbose headers   via: '1.1 varnish',
+138 verbose headers   'cache-control': 'max-age=300',
+138 verbose headers   etag: '"51DWMG5BJZTDEATN3KDEX5KQT"',
+138 verbose headers   age: '293',
+138 verbose headers   connection: 'keep-alive',
+138 verbose headers   'x-served-by': 'cache-atl6220-ATL',
+138 verbose headers   'x-cache': 'HIT',
+138 verbose headers   'x-cache-hits': '1',
+138 verbose headers   'x-timer': 'S1465088804.900768,VS0,VE0',
+138 verbose headers   vary: 'Accept-Encoding' }
+139 silly get cb [ 304,
+139 silly get   { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+139 silly get     via: '1.1 varnish',
+139 silly get     'cache-control': 'max-age=300',
+139 silly get     etag: '"51DWMG5BJZTDEATN3KDEX5KQT"',
+139 silly get     age: '293',
+139 silly get     connection: 'keep-alive',
+139 silly get     'x-served-by': 'cache-atl6220-ATL',
+139 silly get     'x-cache': 'HIT',
+139 silly get     'x-cache-hits': '1',
+139 silly get     'x-timer': 'S1465088804.900768,VS0,VE0',
+139 silly get     vary: 'Accept-Encoding' } ]
+140 verbose etag https://registry.npmjs.org/gulp-babel from cache
+141 verbose get saving gulp-babel to /Users/Gabriel/.npm/registry.npmjs.org/gulp-babel/.cache.json
+142 http 304 https://registry.npmjs.org/gulp-sass
+143 verbose headers { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+143 verbose headers   via: '1.1 varnish',
+143 verbose headers   'cache-control': 'max-age=300',
+143 verbose headers   etag: '"DSD4IQO64QZODLHS0KI86T80F"',
+143 verbose headers   age: '100',
+143 verbose headers   connection: 'keep-alive',
+143 verbose headers   'x-served-by': 'cache-atl6238-ATL',
+143 verbose headers   'x-cache': 'HIT',
+143 verbose headers   'x-cache-hits': '2',
+143 verbose headers   'x-timer': 'S1465088804.924319,VS0,VE0',
+143 verbose headers   vary: 'Accept-Encoding' }
+144 silly get cb [ 304,
+144 silly get   { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+144 silly get     via: '1.1 varnish',
+144 silly get     'cache-control': 'max-age=300',
+144 silly get     etag: '"DSD4IQO64QZODLHS0KI86T80F"',
+144 silly get     age: '100',
+144 silly get     connection: 'keep-alive',
+144 silly get     'x-served-by': 'cache-atl6238-ATL',
+144 silly get     'x-cache': 'HIT',
+144 silly get     'x-cache-hits': '2',
+144 silly get     'x-timer': 'S1465088804.924319,VS0,VE0',
+144 silly get     vary: 'Accept-Encoding' } ]
+145 verbose etag https://registry.npmjs.org/gulp-sass from cache
+146 verbose get saving gulp-sass to /Users/Gabriel/.npm/registry.npmjs.org/gulp-sass/.cache.json
+147 http 304 https://registry.npmjs.org/gulp-load-plugins
+148 verbose headers { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+148 verbose headers   via: '1.1 varnish',
+148 verbose headers   'cache-control': 'max-age=300',
+148 verbose headers   etag: '"309I08U5MBC0TJ1RGQT46G6U"',
+148 verbose headers   age: '224',
+148 verbose headers   connection: 'keep-alive',
+148 verbose headers   'x-served-by': 'cache-atl6244-ATL',
+148 verbose headers   'x-cache': 'HIT',
+148 verbose headers   'x-cache-hits': '1',
+148 verbose headers   'x-timer': 'S1465088804.924911,VS0,VE0',
+148 verbose headers   vary: 'Accept-Encoding' }
+149 silly get cb [ 304,
+149 silly get   { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+149 silly get     via: '1.1 varnish',
+149 silly get     'cache-control': 'max-age=300',
+149 silly get     etag: '"309I08U5MBC0TJ1RGQT46G6U"',
+149 silly get     age: '224',
+149 silly get     connection: 'keep-alive',
+149 silly get     'x-served-by': 'cache-atl6244-ATL',
+149 silly get     'x-cache': 'HIT',
+149 silly get     'x-cache-hits': '1',
+149 silly get     'x-timer': 'S1465088804.924911,VS0,VE0',
+149 silly get     vary: 'Accept-Encoding' } ]
+150 verbose etag https://registry.npmjs.org/gulp-load-plugins from cache
+151 verbose get saving gulp-load-plugins to /Users/Gabriel/.npm/registry.npmjs.org/gulp-load-plugins/.cache.json
+152 http 304 https://registry.npmjs.org/gulp-plumber
+153 verbose headers { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+153 verbose headers   via: '1.1 varnish',
+153 verbose headers   'cache-control': 'max-age=300',
+153 verbose headers   etag: '"8ZKYFSN8QH72M8SO1G7PJ1UUX"',
+153 verbose headers   age: '101',
+153 verbose headers   connection: 'keep-alive',
+153 verbose headers   'x-served-by': 'cache-atl6250-ATL',
+153 verbose headers   'x-cache': 'HIT',
+153 verbose headers   'x-cache-hits': '1',
+153 verbose headers   'x-timer': 'S1465088804.924208,VS0,VE0',
+153 verbose headers   vary: 'Accept-Encoding' }
+154 silly get cb [ 304,
+154 silly get   { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     'cache-control': 'max-age=300',
+154 silly get     etag: '"8ZKYFSN8QH72M8SO1G7PJ1UUX"',
+154 silly get     age: '101',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-atl6250-ATL',
+154 silly get     'x-cache': 'HIT',
+154 silly get     'x-cache-hits': '1',
+154 silly get     'x-timer': 'S1465088804.924208,VS0,VE0',
+154 silly get     vary: 'Accept-Encoding' } ]
+155 verbose etag https://registry.npmjs.org/gulp-plumber from cache
+156 verbose get saving gulp-plumber to /Users/Gabriel/.npm/registry.npmjs.org/gulp-plumber/.cache.json
+157 http 304 https://registry.npmjs.org/gulp-handlebars
+158 verbose headers { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+158 verbose headers   via: '1.1 varnish',
+158 verbose headers   'cache-control': 'max-age=300',
+158 verbose headers   etag: '"6SYGMAJTHG7ADFQ41IZ3XIR16"',
+158 verbose headers   age: '101',
+158 verbose headers   connection: 'keep-alive',
+158 verbose headers   'x-served-by': 'cache-atl6230-ATL',
+158 verbose headers   'x-cache': 'HIT',
+158 verbose headers   'x-cache-hits': '1',
+158 verbose headers   'x-timer': 'S1465088804.926104,VS0,VE0',
+158 verbose headers   vary: 'Accept-Encoding' }
+159 silly get cb [ 304,
+159 silly get   { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+159 silly get     via: '1.1 varnish',
+159 silly get     'cache-control': 'max-age=300',
+159 silly get     etag: '"6SYGMAJTHG7ADFQ41IZ3XIR16"',
+159 silly get     age: '101',
+159 silly get     connection: 'keep-alive',
+159 silly get     'x-served-by': 'cache-atl6230-ATL',
+159 silly get     'x-cache': 'HIT',
+159 silly get     'x-cache-hits': '1',
+159 silly get     'x-timer': 'S1465088804.926104,VS0,VE0',
+159 silly get     vary: 'Accept-Encoding' } ]
+160 verbose etag https://registry.npmjs.org/gulp-handlebars from cache
+161 verbose get saving gulp-handlebars to /Users/Gabriel/.npm/registry.npmjs.org/gulp-handlebars/.cache.json
+162 http 304 https://registry.npmjs.org/browser-sync
+163 verbose headers { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+163 verbose headers   via: '1.1 varnish',
+163 verbose headers   'cache-control': 'max-age=300',
+163 verbose headers   etag: '"E4QOY7J66OJG0E87S597IJ59T"',
+163 verbose headers   age: '0',
+163 verbose headers   connection: 'keep-alive',
+163 verbose headers   'x-served-by': 'cache-atl6249-ATL',
+163 verbose headers   'x-cache': 'HIT',
+163 verbose headers   'x-cache-hits': '1',
+163 verbose headers   'x-timer': 'S1465088804.924300,VS0,VE131',
+163 verbose headers   vary: 'Accept-Encoding' }
+164 silly get cb [ 304,
+164 silly get   { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+164 silly get     via: '1.1 varnish',
+164 silly get     'cache-control': 'max-age=300',
+164 silly get     etag: '"E4QOY7J66OJG0E87S597IJ59T"',
+164 silly get     age: '0',
+164 silly get     connection: 'keep-alive',
+164 silly get     'x-served-by': 'cache-atl6249-ATL',
+164 silly get     'x-cache': 'HIT',
+164 silly get     'x-cache-hits': '1',
+164 silly get     'x-timer': 'S1465088804.924300,VS0,VE131',
+164 silly get     vary: 'Accept-Encoding' } ]
+165 verbose etag https://registry.npmjs.org/browser-sync from cache
+166 verbose get saving browser-sync to /Users/Gabriel/.npm/registry.npmjs.org/browser-sync/.cache.json
+167 http 304 https://registry.npmjs.org/gulp-util
+168 verbose headers { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+168 verbose headers   via: '1.1 varnish',
+168 verbose headers   'cache-control': 'max-age=300',
+168 verbose headers   etag: '"D5TOOQFT755D32UG9UDTQFHY2"',
+168 verbose headers   age: '240',
+168 verbose headers   connection: 'keep-alive',
+168 verbose headers   'x-served-by': 'cache-atl6232-ATL',
+168 verbose headers   'x-cache': 'HIT',
+168 verbose headers   'x-cache-hits': '5',
+168 verbose headers   'x-timer': 'S1465088805.116241,VS0,VE0',
+168 verbose headers   vary: 'Accept-Encoding' }
+169 silly get cb [ 304,
+169 silly get   { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+169 silly get     via: '1.1 varnish',
+169 silly get     'cache-control': 'max-age=300',
+169 silly get     etag: '"D5TOOQFT755D32UG9UDTQFHY2"',
+169 silly get     age: '240',
+169 silly get     connection: 'keep-alive',
+169 silly get     'x-served-by': 'cache-atl6232-ATL',
+169 silly get     'x-cache': 'HIT',
+169 silly get     'x-cache-hits': '5',
+169 silly get     'x-timer': 'S1465088805.116241,VS0,VE0',
+169 silly get     vary: 'Accept-Encoding' } ]
+170 verbose etag https://registry.npmjs.org/gulp-util from cache
+171 verbose get saving gulp-util to /Users/Gabriel/.npm/registry.npmjs.org/gulp-util/.cache.json
+172 http 304 https://registry.npmjs.org/gulp
+173 verbose headers { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+173 verbose headers   via: '1.1 varnish',
+173 verbose headers   'cache-control': 'max-age=300',
+173 verbose headers   etag: '"ANOONJ427UCOW52CRUXTGQSGU"',
+173 verbose headers   age: '240',
+173 verbose headers   connection: 'keep-alive',
+173 verbose headers   'x-served-by': 'cache-atl6245-ATL',
+173 verbose headers   'x-cache': 'HIT',
+173 verbose headers   'x-cache-hits': '2',
+173 verbose headers   'x-timer': 'S1465088805.116929,VS0,VE0',
+173 verbose headers   vary: 'Accept-Encoding' }
+174 silly get cb [ 304,
+174 silly get   { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+174 silly get     via: '1.1 varnish',
+174 silly get     'cache-control': 'max-age=300',
+174 silly get     etag: '"ANOONJ427UCOW52CRUXTGQSGU"',
+174 silly get     age: '240',
+174 silly get     connection: 'keep-alive',
+174 silly get     'x-served-by': 'cache-atl6245-ATL',
+174 silly get     'x-cache': 'HIT',
+174 silly get     'x-cache-hits': '2',
+174 silly get     'x-timer': 'S1465088805.116929,VS0,VE0',
+174 silly get     vary: 'Accept-Encoding' } ]
+175 verbose etag https://registry.npmjs.org/gulp from cache
+176 verbose get saving gulp to /Users/Gabriel/.npm/registry.npmjs.org/gulp/.cache.json
+177 http 304 https://registry.npmjs.org/autoprefixer-core
+178 verbose headers { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+178 verbose headers   via: '1.1 varnish',
+178 verbose headers   'cache-control': 'max-age=300',
+178 verbose headers   etag: '"24OZ2JP8TVHQ0913YS664JJ0I"',
+178 verbose headers   age: '0',
+178 verbose headers   connection: 'keep-alive',
+178 verbose headers   'x-served-by': 'cache-atl6223-ATL',
+178 verbose headers   'x-cache': 'HIT',
+178 verbose headers   'x-cache-hits': '1',
+178 verbose headers   'x-timer': 'S1465088805.108296,VS0,VE31',
+178 verbose headers   vary: 'Accept-Encoding' }
+179 silly get cb [ 304,
+179 silly get   { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+179 silly get     via: '1.1 varnish',
+179 silly get     'cache-control': 'max-age=300',
+179 silly get     etag: '"24OZ2JP8TVHQ0913YS664JJ0I"',
+179 silly get     age: '0',
+179 silly get     connection: 'keep-alive',
+179 silly get     'x-served-by': 'cache-atl6223-ATL',
+179 silly get     'x-cache': 'HIT',
+179 silly get     'x-cache-hits': '1',
+179 silly get     'x-timer': 'S1465088805.108296,VS0,VE31',
+179 silly get     vary: 'Accept-Encoding' } ]
+180 verbose etag https://registry.npmjs.org/autoprefixer-core from cache
+181 verbose get saving autoprefixer-core to /Users/Gabriel/.npm/registry.npmjs.org/autoprefixer-core/.cache.json
+182 http 304 https://registry.npmjs.org/gulp-declare
+183 verbose headers { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+183 verbose headers   via: '1.1 varnish',
+183 verbose headers   'cache-control': 'max-age=300',
+183 verbose headers   etag: '"EOQJW33VH42E7G6QCBGMNOSBW"',
+183 verbose headers   age: '101',
+183 verbose headers   connection: 'keep-alive',
+183 verbose headers   'x-served-by': 'cache-atl6248-ATL',
+183 verbose headers   'x-cache': 'HIT',
+183 verbose headers   'x-cache-hits': '1',
+183 verbose headers   'x-timer': 'S1465088805.148017,VS0,VE0',
+183 verbose headers   vary: 'Accept-Encoding' }
+184 silly get cb [ 304,
+184 silly get   { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+184 silly get     via: '1.1 varnish',
+184 silly get     'cache-control': 'max-age=300',
+184 silly get     etag: '"EOQJW33VH42E7G6QCBGMNOSBW"',
+184 silly get     age: '101',
+184 silly get     connection: 'keep-alive',
+184 silly get     'x-served-by': 'cache-atl6248-ATL',
+184 silly get     'x-cache': 'HIT',
+184 silly get     'x-cache-hits': '1',
+184 silly get     'x-timer': 'S1465088805.148017,VS0,VE0',
+184 silly get     vary: 'Accept-Encoding' } ]
+185 verbose etag https://registry.npmjs.org/gulp-declare from cache
+186 verbose get saving gulp-declare to /Users/Gabriel/.npm/registry.npmjs.org/gulp-declare/.cache.json
+187 http 304 https://registry.npmjs.org/gulp-concat
+188 verbose headers { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+188 verbose headers   via: '1.1 varnish',
+188 verbose headers   'cache-control': 'max-age=300',
+188 verbose headers   etag: '"6JDMSJDA2U7CKOJ03IHNK4K6F"',
+188 verbose headers   age: '157',
+188 verbose headers   connection: 'keep-alive',
+188 verbose headers   'x-served-by': 'cache-atl6245-ATL',
+188 verbose headers   'x-cache': 'HIT',
+188 verbose headers   'x-cache-hits': '1',
+188 verbose headers   'x-timer': 'S1465088805.148389,VS0,VE0',
+188 verbose headers   vary: 'Accept-Encoding' }
+189 silly get cb [ 304,
+189 silly get   { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+189 silly get     via: '1.1 varnish',
+189 silly get     'cache-control': 'max-age=300',
+189 silly get     etag: '"6JDMSJDA2U7CKOJ03IHNK4K6F"',
+189 silly get     age: '157',
+189 silly get     connection: 'keep-alive',
+189 silly get     'x-served-by': 'cache-atl6245-ATL',
+189 silly get     'x-cache': 'HIT',
+189 silly get     'x-cache-hits': '1',
+189 silly get     'x-timer': 'S1465088805.148389,VS0,VE0',
+189 silly get     vary: 'Accept-Encoding' } ]
+190 verbose etag https://registry.npmjs.org/gulp-concat from cache
+191 verbose get saving gulp-concat to /Users/Gabriel/.npm/registry.npmjs.org/gulp-concat/.cache.json
+192 http 304 https://registry.npmjs.org/gulp-sourcemaps
+193 verbose headers { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+193 verbose headers   via: '1.1 varnish',
+193 verbose headers   'cache-control': 'max-age=300',
+193 verbose headers   etag: '"B52J61JOAY0NW51YE0EZGMDPK"',
+193 verbose headers   age: '12',
+193 verbose headers   connection: 'keep-alive',
+193 verbose headers   'x-served-by': 'cache-atl6243-ATL',
+193 verbose headers   'x-cache': 'HIT',
+193 verbose headers   'x-cache-hits': '1',
+193 verbose headers   'x-timer': 'S1465088805.161733,VS0,VE0',
+193 verbose headers   vary: 'Accept-Encoding' }
+194 silly get cb [ 304,
+194 silly get   { date: 'Sun, 05 Jun 2016 01:06:45 GMT',
+194 silly get     via: '1.1 varnish',
+194 silly get     'cache-control': 'max-age=300',
+194 silly get     etag: '"B52J61JOAY0NW51YE0EZGMDPK"',
+194 silly get     age: '12',
+194 silly get     connection: 'keep-alive',
+194 silly get     'x-served-by': 'cache-atl6243-ATL',
+194 silly get     'x-cache': 'HIT',
+194 silly get     'x-cache-hits': '1',
+194 silly get     'x-timer': 'S1465088805.161733,VS0,VE0',
+194 silly get     vary: 'Accept-Encoding' } ]
+195 verbose etag https://registry.npmjs.org/gulp-sourcemaps from cache
+196 verbose get saving gulp-sourcemaps to /Users/Gabriel/.npm/registry.npmjs.org/gulp-sourcemaps/.cache.json
+197 http 304 https://registry.npmjs.org/gulp-postcss
+198 verbose headers { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+198 verbose headers   via: '1.1 varnish',
+198 verbose headers   'cache-control': 'max-age=300',
+198 verbose headers   etag: '"CQFI0372XC6LO4LVLD2PEAXHA"',
+198 verbose headers   age: '0',
+198 verbose headers   connection: 'keep-alive',
+198 verbose headers   'x-served-by': 'cache-atl6234-ATL',
+198 verbose headers   'x-cache': 'HIT',
+198 verbose headers   'x-cache-hits': '1',
+198 verbose headers   'x-timer': 'S1465088804.924869,VS0,VE333',
+198 verbose headers   vary: 'Accept-Encoding' }
+199 silly get cb [ 304,
+199 silly get   { date: 'Sun, 05 Jun 2016 01:06:44 GMT',
+199 silly get     via: '1.1 varnish',
+199 silly get     'cache-control': 'max-age=300',
+199 silly get     etag: '"CQFI0372XC6LO4LVLD2PEAXHA"',
+199 silly get     age: '0',
+199 silly get     connection: 'keep-alive',
+199 silly get     'x-served-by': 'cache-atl6234-ATL',
+199 silly get     'x-cache': 'HIT',
+199 silly get     'x-cache-hits': '1',
+199 silly get     'x-timer': 'S1465088804.924869,VS0,VE333',
+199 silly get     vary: 'Accept-Encoding' } ]
+200 verbose etag https://registry.npmjs.org/gulp-postcss from cache
+201 verbose get saving gulp-postcss to /Users/Gabriel/.npm/registry.npmjs.org/gulp-postcss/.cache.json
+202 verbose outdated not updating gulp-wrap because it's currently at the maximum version that matches its specified semver range
+203 info outdated updating [ { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'autoprefixer-core',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '5.2.1',
+203 info outdated     latest: '6.0.1',
+203 info outdated     req: '^5.1.11',
+203 info outdated     what: 'autoprefixer-core@5.2.1' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'browser-sync',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '2.12.12',
+203 info outdated     latest: '2.12.12',
+203 info outdated     req: '^2.7.4',
+203 info outdated     what: 'browser-sync@2.12.12' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '3.9.1',
+203 info outdated     latest: '3.9.1',
+203 info outdated     req: '^3.8.11',
+203 info outdated     what: 'gulp@3.9.1' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp-babel',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '5.3.0',
+203 info outdated     latest: '6.1.2',
+203 info outdated     req: '^5.1.0',
+203 info outdated     what: 'gulp-babel@5.3.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp-concat',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '2.6.0',
+203 info outdated     latest: '2.6.0',
+203 info outdated     req: '^2.5.2',
+203 info outdated     what: 'gulp-concat@2.6.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp-declare',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '0.3.0',
+203 info outdated     latest: '0.3.0',
+203 info outdated     req: '^0.3.0',
+203 info outdated     what: 'gulp-declare@0.3.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp-handlebars',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '4.0.0',
+203 info outdated     latest: '4.0.0',
+203 info outdated     req: '^4.0.0',
+203 info outdated     what: 'gulp-handlebars@4.0.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp-load-plugins',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '0.10.0',
+203 info outdated     latest: '1.2.4',
+203 info outdated     req: '^0.10.0',
+203 info outdated     what: 'gulp-load-plugins@0.10.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp-plumber',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '1.1.0',
+203 info outdated     latest: '1.1.0',
+203 info outdated     req: '^1.0.1',
+203 info outdated     what: 'gulp-plumber@1.1.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp-postcss',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '5.1.10',
+203 info outdated     latest: '6.1.1',
+203 info outdated     req: '^5.1.8',
+203 info outdated     what: 'gulp-postcss@5.1.10' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp-sass',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '2.3.1',
+203 info outdated     latest: '2.3.1',
+203 info outdated     req: '^2.0.1',
+203 info outdated     what: 'gulp-sass@2.3.1' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp-sourcemaps',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '1.6.0',
+203 info outdated     latest: '1.6.0',
+203 info outdated     req: '^1.5.2',
+203 info outdated     what: 'gulp-sourcemaps@1.6.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/Users/Gabriel/Documents/Projects/chatapp',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'gulp-wrap-commonjs',
+203 info outdated     current: undefined,
+203 info outdated     wanted: 'git',
+203 info outdated     latest: 'git',
+203 info outdated     req: 'git://github.com/jacobthemyth/gulp-wrap-commonjs.git',
+203 info outdated     what: 'gulp-wrap-commonjs@git' } ]
+204 silly loadCurrentTree Starting
+205 silly install loadCurrentTree
+206 silly install readLocalPackageData
+207 silly fetchPackageMetaData autoprefixer-core@5.2.1
+208 silly fetchPackageMetaData browser-sync@2.12.12
+209 silly fetchPackageMetaData gulp@3.9.1
+210 silly fetchPackageMetaData gulp-babel@5.3.0
+211 silly fetchPackageMetaData gulp-concat@2.6.0
+212 silly fetchPackageMetaData gulp-declare@0.3.0
+213 silly fetchPackageMetaData gulp-handlebars@4.0.0
+214 silly fetchPackageMetaData gulp-load-plugins@0.10.0
+215 silly fetchPackageMetaData gulp-plumber@1.1.0
+216 silly fetchPackageMetaData gulp-postcss@5.1.10
+217 silly fetchPackageMetaData gulp-sass@2.3.1
+218 silly fetchPackageMetaData gulp-sourcemaps@1.6.0
+219 silly fetchPackageMetaData git://github.com/jacobthemyth/gulp-wrap-commonjs.git
+220 silly fetchNamedPackageData autoprefixer-core
+221 silly mapToRegistry name autoprefixer-core
+222 silly mapToRegistry using default registry
+223 silly mapToRegistry registry https://registry.npmjs.org/
+224 silly mapToRegistry uri https://registry.npmjs.org/autoprefixer-core
+225 silly fetchNamedPackageData browser-sync
+226 silly mapToRegistry name browser-sync
+227 silly mapToRegistry using default registry
+228 silly mapToRegistry registry https://registry.npmjs.org/
+229 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+230 silly fetchNamedPackageData gulp
+231 silly mapToRegistry name gulp
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry https://registry.npmjs.org/
+234 silly mapToRegistry uri https://registry.npmjs.org/gulp
+235 silly fetchNamedPackageData gulp-babel
+236 silly mapToRegistry name gulp-babel
+237 silly mapToRegistry using default registry
+238 silly mapToRegistry registry https://registry.npmjs.org/
+239 silly mapToRegistry uri https://registry.npmjs.org/gulp-babel
+240 silly fetchNamedPackageData gulp-concat
+241 silly mapToRegistry name gulp-concat
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry uri https://registry.npmjs.org/gulp-concat
+245 silly fetchNamedPackageData gulp-declare
+246 silly mapToRegistry name gulp-declare
+247 silly mapToRegistry using default registry
+248 silly mapToRegistry registry https://registry.npmjs.org/
+249 silly mapToRegistry uri https://registry.npmjs.org/gulp-declare
+250 silly fetchNamedPackageData gulp-handlebars
+251 silly mapToRegistry name gulp-handlebars
+252 silly mapToRegistry using default registry
+253 silly mapToRegistry registry https://registry.npmjs.org/
+254 silly mapToRegistry uri https://registry.npmjs.org/gulp-handlebars
+255 silly fetchNamedPackageData gulp-load-plugins
+256 silly mapToRegistry name gulp-load-plugins
+257 silly mapToRegistry using default registry
+258 silly mapToRegistry registry https://registry.npmjs.org/
+259 silly mapToRegistry uri https://registry.npmjs.org/gulp-load-plugins
+260 silly fetchNamedPackageData gulp-plumber
+261 silly mapToRegistry name gulp-plumber
+262 silly mapToRegistry using default registry
+263 silly mapToRegistry registry https://registry.npmjs.org/
+264 silly mapToRegistry uri https://registry.npmjs.org/gulp-plumber
+265 silly fetchNamedPackageData gulp-postcss
+266 silly mapToRegistry name gulp-postcss
+267 silly mapToRegistry using default registry
+268 silly mapToRegistry registry https://registry.npmjs.org/
+269 silly mapToRegistry uri https://registry.npmjs.org/gulp-postcss
+270 silly fetchNamedPackageData gulp-sass
+271 silly mapToRegistry name gulp-sass
+272 silly mapToRegistry using default registry
+273 silly mapToRegistry registry https://registry.npmjs.org/
+274 silly mapToRegistry uri https://registry.npmjs.org/gulp-sass
+275 silly fetchNamedPackageData gulp-sourcemaps
+276 silly mapToRegistry name gulp-sourcemaps
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npmjs.org/
+279 silly mapToRegistry uri https://registry.npmjs.org/gulp-sourcemaps
+280 silly fetchOtherPackageData git://github.com/jacobthemyth/gulp-wrap-commonjs.git
+281 silly cache add args [ 'git://github.com/jacobthemyth/gulp-wrap-commonjs.git', null ]
+282 verbose cache add spec git://github.com/jacobthemyth/gulp-wrap-commonjs.git
+283 silly cache add parsed spec { raw: 'git://github.com/jacobthemyth/gulp-wrap-commonjs.git',
+283 silly cache add   scope: null,
+283 silly cache add   name: null,
+283 silly cache add   rawSpec: 'git://github.com/jacobthemyth/gulp-wrap-commonjs.git',
+283 silly cache add   spec: 'git://github.com/jacobthemyth/gulp-wrap-commonjs.git',
+283 silly cache add   type: 'hosted',
+283 silly cache add   hosted:
+283 silly cache add    { type: 'github',
+283 silly cache add      ssh: 'git@github.com:jacobthemyth/gulp-wrap-commonjs.git',
+283 silly cache add      sshUrl: 'git+ssh://git@github.com/jacobthemyth/gulp-wrap-commonjs.git',
+283 silly cache add      httpsUrl: 'git+https://github.com/jacobthemyth/gulp-wrap-commonjs.git',
+283 silly cache add      gitUrl: 'git://github.com/jacobthemyth/gulp-wrap-commonjs.git',
+283 silly cache add      shortcut: 'github:jacobthemyth/gulp-wrap-commonjs',
+283 silly cache add      directUrl: 'https://raw.githubusercontent.com/jacobthemyth/gulp-wrap-commonjs/master/package.json' } }
+284 verbose addRemoteGit caching git://github.com/jacobthemyth/gulp-wrap-commonjs.git
+285 verbose addRemoteGit git://github.com/jacobthemyth/gulp-wrap-commonjs.git is a repository hosted by github
+286 silly tryClone cloning git://github.com/jacobthemyth/gulp-wrap-commonjs.git via git://github.com/jacobthemyth/gulp-wrap-commonjs.git
+287 verbose tryClone git-github-com-jacobthemyth-gulp-wrap-commonjs-git-5f1dacaf not in flight; caching
+288 verbose get https://registry.npmjs.org/autoprefixer-core not expired, no request
+289 verbose get https://registry.npmjs.org/gulp-babel not expired, no request
+290 verbose get https://registry.npmjs.org/gulp not expired, no request
+291 verbose get https://registry.npmjs.org/gulp-concat not expired, no request
+292 verbose get https://registry.npmjs.org/gulp-declare not expired, no request
+293 verbose get https://registry.npmjs.org/browser-sync not expired, no request
+294 verbose get https://registry.npmjs.org/gulp-handlebars not expired, no request
+295 verbose get https://registry.npmjs.org/gulp-load-plugins not expired, no request
+296 verbose get https://registry.npmjs.org/gulp-plumber not expired, no request
+297 verbose get https://registry.npmjs.org/gulp-postcss not expired, no request
+298 verbose get https://registry.npmjs.org/gulp-sass not expired, no request
+299 verbose get https://registry.npmjs.org/gulp-sourcemaps not expired, no request
+300 info git [ 'config', '--get', 'remote.origin.url' ]
+301 silly validateExistingRemote git://github.com/jacobthemyth/gulp-wrap-commonjs.git remote.origin.url: git://github.com/jacobthemyth/gulp-wrap-commonjs.git
+302 verbose validateExistingRemote git://github.com/jacobthemyth/gulp-wrap-commonjs.git is updating existing cached remote /Users/Gabriel/.npm/_git-remotes/git-github-com-jacobthemyth-gulp-wrap-commonjs-git-5f1dacaf
+303 info git [ 'fetch', '-a', 'origin' ]
+304 error git fetch -a origin (git://github.com/jacobthemyth/gulp-wrap-commonjs.git) fatal: remote error:
+304 error git fetch -a origin (git://github.com/jacobthemyth/gulp-wrap-commonjs.git)   Repository not found.
+305 silly fetchPackageMetaData Error: Command failed: git fetch -a origin
+305 silly fetchPackageMetaData fatal: remote error:
+305 silly fetchPackageMetaData   Repository not found.
+305 silly fetchPackageMetaData
+305 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:751:12)
+305 silly fetchPackageMetaData     at ChildProcess.emit (events.js:110:17)
+305 silly fetchPackageMetaData     at maybeClose (child_process.js:1015:16)
+305 silly fetchPackageMetaData     at Socket.<anonymous> (child_process.js:1183:11)
+305 silly fetchPackageMetaData     at Socket.emit (events.js:107:17)
+305 silly fetchPackageMetaData     at Pipe.close (net.js:485:12)
+305 silly fetchPackageMetaData  error for git://github.com/jacobthemyth/gulp-wrap-commonjs.git { [Error: Command failed: git fetch -a origin
+305 silly fetchPackageMetaData fatal: remote error:
+305 silly fetchPackageMetaData   Repository not found.
+305 silly fetchPackageMetaData ]
+305 silly fetchPackageMetaData   killed: false,
+305 silly fetchPackageMetaData   code: 128,
+305 silly fetchPackageMetaData   signal: null,
+305 silly fetchPackageMetaData   cmd: 'git fetch -a origin' }
+306 silly rollbackFailedOptional Starting
+307 silly rollbackFailedOptional Finishing
+308 silly runTopLevelLifecycles Starting
+309 silly runTopLevelLifecycles Finishing
+310 silly install printInstalled
+311 verbose stack Error: Command failed: git fetch -a origin
+311 verbose stack fatal: remote error:
+311 verbose stack   Repository not found.
+311 verbose stack
+311 verbose stack     at ChildProcess.exithandler (child_process.js:751:12)
+311 verbose stack     at ChildProcess.emit (events.js:110:17)
+311 verbose stack     at maybeClose (child_process.js:1015:16)
+311 verbose stack     at Socket.<anonymous> (child_process.js:1183:11)
+311 verbose stack     at Socket.emit (events.js:107:17)
+311 verbose stack     at Pipe.close (net.js:485:12)
+312 verbose cwd /Users/Gabriel/Documents/Projects/chatapp
+313 error Darwin 15.5.0
+314 error argv "node" "/usr/local/bin/npm" "update"
+315 error node v0.12.2
+316 error npm  v3.5.2
+317 error code 128
+318 error Command failed: git fetch -a origin
+318 error fatal: remote error:
+318 error   Repository not found.
+319 error If you need help, you may report this error at:
+319 error     <https://github.com/npm/npm/issues>
+320 verbose exit [ 1, true ]
